@@ -1,0 +1,87 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "IBM Plex Sans", sans-serif;
+}
+
+body{
+    background-color: #e1e9eb;
+    margin: 4vh 9vw;
+    max-width: 1440px;
+}
+
+/* styling navigation part of the about page  */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navigation-list{
+    display: flex;
+     list-style: none;
+     gap: 6vh;
+     padding-right: 3vw;
+}
+
+.navigation img {
+    width: 150px;
+}
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+/* styling main part  */
+main{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      align-items: center;
+      width: 40vw;
+      position: absolute;
+      left: 30vw;
+      bottom: 25vh;
+}
+
+main h1{
+    margin-bottom: 4vh;
+    color: #20bc7e;
+    font-size: 32px;
+}
+.description{
+    font-size: 15px;
+    font-weight: 550px;
+     text-align: center;
+}
+
+/* styling bottom box data  */
+.data-list{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.data-list li{
+    box-shadow: 0 0 10px black;
+    padding: 12px 45px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.data-list li h3{
+    color: #16b676;
+}
+.data-list li p{
+    font-weight: 600;
+}
+ 

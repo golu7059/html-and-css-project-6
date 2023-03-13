@@ -1,0 +1,382 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+/* css for body  */
+body {
+    margin: 0 15vw;
+    background-color: black;
+    /* font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Serif', serif; */
+ }
+
+ /* writing css for header part  */
+header{
+    display: flex;
+    justify-content: center;
+
+}
+img[alt="logo"]{
+    margin-right: 12vh;
+    align-self: start;
+    padding-top: 35%;
+}
+img[alt="main-image"]{
+    width: 230px;
+    position: relative;
+    top: -100px;
+
+}
+.right-nav{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+/* css for navigation options  */
+.nav-list{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10%;
+    list-style: none;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.nav-item{
+     align-self: center;
+     font-weight: 600;
+     font-size: 18px;
+     cursor: pointer;
+}
+
+/* css for shop button  */
+.shop-button{
+    color: antiquewhite;
+    background-color: #1e1e21;
+    border-top: 1px solid rgb(150, 145, 137);
+    border-left: 1px solid rgb(120, 116, 107);
+    padding: 10px 38px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 580;
+    
+}
+img[alt="on-ear"]{
+    margin-left: 7%;
+    margin-top: -15px;
+    width: 320px;
+}
+
+.nav-left-bottom{
+    margin: 14%;
+}
+
+.nav-left-bottom h1{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-size: 50px;
+    font-weight: 600px;
+}
+
+.nav-left-bottom h3{
+    margin-bottom: 25px;
+}
+.overview {
+    width: 60%;
+}
+
+.overview p{
+     line-height: 25px;
+     word-spacing: 2px;
+     font-size: 17px;
+     
+}
+
+.bag-adding{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    background-color: #1e1e21;
+    padding: 20px 40px;
+    width: 291px;
+    height: 60px;
+    border-radius: 10px;
+    align-items: center;
+}
+.bag-adding-item{
+    background-color: #1e1e21;
+    cursor: pointer;
+}
+
+/* css for social media part  */
+.social-media{
+    margin: 3%;
+}
+
+.social-media-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    list-style: none;
+    gap: 32vh;
+}
+
+.social-media-list-item{
+    width: 20px;
+    cursor: pointer;
+}
+
+/* css for specification  */
+.specs{
+    margin: 5%;
+}
+ .specsLogo{
+     display: flex;
+     justify-content: center;
+ }
+
+.specification{
+    display: flex;
+    justify-content: center;
+    gap: 10vh;
+    margin-top: 8vh;
+    font-size: 19px;
+}
+.specification-type{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.bluetooth{
+      padding-left: 10px;   
+}
+.microphone{
+      padding-left: 10px;   
+}
+
+/* css for case side  */
+.case-logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 5%;
+}
+.case-logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.case{
+    display: flex;
+    gap: 15%;
+    margin-top: 5%;
+
+}
+.case > div {
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    width: 35vh;
+    line-height: 25px;
+}
+ .case :nth-child(2){
+    justify-content: center;
+ }
+ .more-info{
+    margin-top: 30px;
+    width: fit-content;
+  background: #1e1e21;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+  padding: 10px 20px;
+  cursor: pointer;
+ }
+
+ /* shoping section css  */
+ .shoping-section{
+    display: flex;
+    margin: 12vh auto;
+    gap: 12%;
+    background-color: #1e1e21;
+    width:100%;
+    height:45vh;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 12px;
+    justify-content: center;
+    background-color: #1e1e21;
+ }
+  
+.buy-now-list{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 7px 15px;
+}
+.shoping-left-section  h3{
+    font-size: 30px;
+    font-weight: 580;
+     font-family: 'Poppins', sans-serif;
+}
+.shoping-left-section  p{
+    margin: 30px auto;
+}
+
+/* css for buy now lists */
+.buy-now-list{
+    background-color: black;
+    width: fit-content;
+    align-items: center;
+    padding: 6px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ 
+.color-choosing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-list{
+    margin-top: 12%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10% 12%;
+
+}
+.color-image :hover{
+    width: 11vw;
+    transition-delay: 0s;
+    transition-duration: 0.5s;
+}
+.option-list li{
+    background-color: #1e1e21;
+    border-radius: 12px;
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.option-list img{
+    width: 75px;
+    margin-top: -30px;
+}
+.pic-content{
+    display: flex;
+    gap: 13px;
+    align-items:center;
+    justify-content: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    color: beige;
+}
+
+.pic-content img{
+    width: fit-content;
+    background-color: black;
+    padding: 8px;
+    border-radius: 11px;
+    margin-top: 12px;
+}
+.option-list li{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pic-content h5{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 440px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pic-content p{
+    font-size: 12px;
+}
+
+/* css for footer of the page  */
+
+.footer{
+    margin-top: 18%;
+    display: flex;
+     justify-content: center;
+     gap: 12vw;
+}
+
+.support-list{
+    list-style: none;
+    cursor: pointer;
+}
+.support-list>li>p{
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+.product-list>li>p{
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+.product-list{
+    list-style: none;
+    cursor: pointer;
+}
+.footer-social-media > ul{
+    list-style: none;
+    display: flex;
+    gap: 2vh;
+}
+.footer-social-media > ul > li{
+     cursor: pointer;
+     margin-top: 5%;
+}
+.subscribe > input{
+     background-color: #1e1e21;
+     border: none;
+     border-color: #1e1e21;
+     outline-style: none;
+}
+.subscribe{
+    background-color: #1e1e21;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 7px 15px;
+    border-radius: 10px;
+
+}
+.subscribe-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: black;
+    padding: 14px 32px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+.subscribe-logo img{
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+}
